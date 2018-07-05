@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Exercise 1, Unit 3-4, ITGM-272
+ * Exercise 1, Unit 3-4, ITGM-727
  * @author Richard Baker, rbaker22@student.scad.edu
  *
  * Option 1: Have your Web site provide a list of five interests
