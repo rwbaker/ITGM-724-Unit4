@@ -28,7 +28,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="bootstrap-4/css/bootstrap.min.css">
   <link rel="stylesheet" href="style/main.css">
-  <title>ITGM-727—Unit 4</title>
+  <title>Exercise 1, ITGM-727</title>
   </head>
 
   <body>
