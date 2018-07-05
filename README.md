@@ -31,8 +31,8 @@ Using the materials covered in the course so far, create a PHP script that accom
     * **Option 3**: Have your Web site provide a quiz consisting of five multiple-choice questions on any topic. Ask users to answer all the questions and submit them. As a result of a user’s submission, provide feedback in terms of number of correct and incorrect answers. For any incorrect answers, provide the correct answer.
 4. Specifically, proceed as follows:
     1. Use a two-part form:
-      * one page that displays the form
-      * one page that processes the form.
+        * one page that displays the form
+        * one page that processes the form.
     2. Regardless of which option you chose, set up a form for the user to enter his or her name, in addition to any other information needed.
     3. Use appropriate variable names to pass information from your form to your form processor.
     4. Validate the data entered before processing the results.
