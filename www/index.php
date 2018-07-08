@@ -4,6 +4,7 @@
  * Exercise 1, Unit 3-4, ITGM-727
  * @author Richard Baker, rbaker22@student.scad.edu
  *
+ * @assignment
  * Option 1: Have your Web site provide a list of five interests
  * (e.g., sports, music, art, dance, history, science, current
  * affairs, etc.). Then ask users to select one or more interests
@@ -16,6 +17,13 @@
  *          Pour over
  *          Drip coffee
  *          Coffee is terrible, how about tea?
+ *
+ * @short desc
+ * Form on this page collects interests in a multiselect, and submits values to
+ * return.php.
+ *
+ * @dependencies
+ * Bootstrap @ https://getbootstrap.com
  *
  */
 ?>
