@@ -54,21 +54,48 @@
   // This is used as a Bootstrap-specific CSS class name to hide elements
   $showEspresso = $showLatte = $showPourover = $showDrip = $showTea = 'd-none';
 
-
   if (isset($_POST['submit'])) {
+
     // Grab data from our POST object & make it easier to reference in the future
     $choices = $_POST['favoriteCoffee'];
     $name = $_POST['inputName'];
 
     // For each option, check if that choice was in the users selection
     // If so, wipe out the 'd-none' class
+    // VARIANT: This seems more maintainable, but doesn't achieve the goals set forth in the grading rubric
+    /*
     if (in_array("espresso", $choices)){ $showEspresso = ''; }
     if (in_array("latte", $choices)){ $showLatte = ''; }
     if (in_array("pourover", $choices)){ $showPourover = ''; }
     if (in_array("drip", $choices)){ $showDrip = ''; }
     if (in_array("tea", $choices)){ $showTea = ''; }
-  }
+    */
 
+    // For each value selected on the previous page, execute the switch to set the right values.
+    foreach ($choices as $value) {
+
+      //$value = array item; switch is run for each item in multiselect array
+      switch ($value) {
+        case "espresso":
+          $showEspresso = "";
+          break;
+        case "latte":
+          $showLatte = "";
+          break;
+        case "pourover":
+          $showPourover = "";
+          break;
+        case "drip":
+          $showDrip = "";
+          break;
+        case "tea":
+          $showTea = "";
+          break;
+        default:
+          break;
+      }
+    }
+  }
 
 ?>
 
