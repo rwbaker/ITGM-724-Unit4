@@ -109,7 +109,7 @@
         <div class="col-md-6">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="/">Home</a></li>
+              <li class="breadcrumb-item"><a href="index.php">Home</a></li>
               <li class="breadcrumb-item active" aria-current="page">Results</li>
             </ol>
           </nav>
@@ -233,7 +233,7 @@
           ?>
 
           <div class="mt-4 mb-4">
-            <a href="/">Want to go again?</a>
+            <a href="index.php">Want to go again?</a>
           </div>
 
         </div>
