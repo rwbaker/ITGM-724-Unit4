@@ -4,6 +4,7 @@
  * Exercise 1, Unit 3-4, ITGM-727
  * @author Richard Baker, rbaker22@student.scad.edu
  *
+ * @assignment
  * Option 1: Have your Web site provide a list of five interests
  * (e.g., sports, music, art, dance, history, science, current
  * affairs, etc.). Then ask users to select one or more interests
@@ -16,6 +17,13 @@
  *          Pour over
  *          Drip coffee
  *          Coffee is terrible, how about tea?
+ *
+ * @short desc
+ * Form on this page collects interests in a multiselect, and submits values to
+ * return.php.
+ *
+ * @dependencies
+ * Bootstrap @ https://getbootstrap.com
  *
  */
 ?>
@@ -34,8 +42,8 @@
   <body>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="bootstrap-4/js/bootstrap.bundle.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="bootstrap-4/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="bootstrap-4/js/bootstrap.bundle.min.js"></script>
 
     <div class="container">
       <div class="row">
